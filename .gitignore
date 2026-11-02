@@ -7,9 +7,8 @@ node_modules/
 .pnp
 .pnp.js
 
-# Local notebook, pickle, and root duplicate assets (not needed for Vercel deployment)
+# Local pickle and root duplicate assets (not needed for Vercel deployment)
 *.pkl
-*.ipynb
 *.zip
 README.txt
 /buner_*.csv
