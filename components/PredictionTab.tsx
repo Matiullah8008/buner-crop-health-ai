@@ -68,40 +68,40 @@ export default function PredictionTab() {
         veg_share: 55.4,
         month_num: 12,
       });
+    } else if (presetName === 'heatwave') {
+      // May Transition / Pre-Monsoon Drop (Historical Stress Record - 2023-05)
+      setFormData({
+        tmax: 27.70,
+        tmin: 16.35,
+        tmean: 22.16,
+        precip_mm: 151.2,
+        et0_mm: 150.28,
+        ndvi_land: 0.322,
+        ndvi_veg: 0.341,
+        veg_share: 88.0,
+        month_num: 5,
+      });
     } else if (presetName === 'monsoon') {
-      // August Peak Kharif (Healthy)
+      // August Peak Kharif (Historical Transition to Autumn - 2023-08)
       setFormData({
         tmax: 31.38,
         tmin: 22.54,
         tmean: 27.02,
-        precip_mm: 198.0,
-        et0_mm: 120.0,
-        ndvi_land: 0.45,
+        precip_mm: 141.6,
+        et0_mm: 133.24,
+        ndvi_land: 0.450,
         ndvi_veg: 0.457,
         veg_share: 97.5,
         month_num: 8,
       });
-    } else if (presetName === 'heatwave') {
-      // May Early Summer Heatwave (High Stress)
-      setFormData({
-        tmax: 38.5,
-        tmin: 24.0,
-        tmean: 32.0,
-        precip_mm: 15.0,
-        et0_mm: 190.0,
-        ndvi_land: 0.25,
-        ndvi_veg: 0.28,
-        veg_share: 62.0,
-        month_num: 5,
-      });
     } else if (presetName === 'spring') {
-      // April Transition (Harvest Period)
+      // April Transition (Rabi Harvest Season - 2023-04)
       setFormData({
         tmax: 24.78,
-        tmin: 12.9,
+        tmin: 12.90,
         tmean: 18.84,
         precip_mm: 120.0,
-        et0_mm: 129.1,
+        et0_mm: 129.13,
         ndvi_land: 0.349,
         ndvi_veg: 0.368,
         veg_share: 89.2,
